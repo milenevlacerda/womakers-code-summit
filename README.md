@@ -71,12 +71,14 @@ O exemplo da imagem acima, demonstra uma requisição por algum tipo de informa�
 ##### Passo 1: Clone do repositório do github
 
 - Abra o terminal de seu computador
-- (LINK)
+- [Repositório Github](https://github.com/milenevlacerda/womakers-code-summit)
 - Acessando o link disponibilizado, faça o clone do repositório. Exemplo no código abaixo:
 
 ```
-git clone repo
+git clone https://github.com/milenevlacerda/womakers-code-summit.git
 ```
+
+- Utilize a pasta **pwa-demo-ws**
 
 ##### Passo 2:
 
@@ -330,11 +332,18 @@ Onde a "mágica" acontece:
 
 **Passo 3:**
 
+Vamos utilizar um repositório já existente para esse workshop. 
+
+- Volte ao projeto inicial que você clonou, e utilize a pasta **pwa-with-vue**
+- Abra-a em seu editor de texto.
+
+**Passo 4:**
+
 Configure o local de cache de arquivos no Plugin Webpack + PWA
 
 ![Diretório Build](imgs/webpackplugin.png)
 
-**Passo 4:**
+**Passo 5:**
 
 Gere o Build da aplicação para produção para testar a PWA.
 
