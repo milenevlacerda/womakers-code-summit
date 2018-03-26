@@ -85,7 +85,7 @@ git clone https://github.com/milenevlacerda/womakers-code-summit.git
 - Instale o **serve** para podermos servir nossa aplicação, ter acesso e assim testá-la
 
 ```
-npm install -g serve
+sudo npm install -g serve
 ```
 
 ##### Passo 3:
@@ -128,7 +128,7 @@ if ('serviceWorker' in navigator) {
 }
 ```
 
- - No seu **index.html** insira a linha abaixo antes do final da tag **<body>**
+ - No seu **index.html** insira a linha abaixo antes do final da tag **/body**
 
  ```
  <script src="js/sw/register.js"></script>
@@ -230,15 +230,6 @@ Assim, o seu arquivo **manifest.json** deve ficar neste formato:
   "theme_color": "#36d1b2",
   "color": "#fff"
 }
-```
-
-E no seu **index.html** deve ser adicionado as seguintes tags:
-
-```html
-<html lang="pt-br" manifest="offline.manifest">
-<link rel="icon" type="image/png" sizes="192x192" href="/static/img/icons/logo-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/static/img/icons/logo-512x512.png">
-<link rel="manifest" href="/static/manifest.json">
 ```
 
 ## Avaliando a PWA
